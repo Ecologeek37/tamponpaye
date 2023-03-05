@@ -1,0 +1,50 @@
+# Copyright (C) 2023 Vincent Coulon
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleTamponpayeName'
+ModuleTamponpayeName = Tampon paye
+# Module description 'ModuleTamponpayeDesc'
+ModuleTamponpayeDesc = Tamponpaye display a stamp on payed invoice to quickly show it's payed
+
+#
+# Admin page
+#
+TamponpayeSetup = Tamponpaye setup
+Settings = Settings
+TamponpayeSetupPage = Tamponpaye setup page
+TAMPON_PAYE_TYPE = Tampon type
+TAMPON_PAYE_TYPE_DISABLED = Disabled
+TAMPON_PAYE_TYPE_IMAGE = Tampon as image
+TAMPON_PAYE_TYPE_TEXT = Tampon as text
+TAMPON_PAYE_TYPE_HELP = Select the way you want to display the tampon:<br>Disable : no display<br>Image : Display the selected image<br>Text : display as text (lighter PDF)
+TAMPON_PAYE_IMAGE = Tampon image path
+TAMPON_PAYE_TEXT = Tampon text
+TAMPON_PAYE_TEXT_COLOR = Tampon text and box color
+TAMPON_PAYE_POS_X = Tampon X position
+TAMPON_PAYE_POS_Y = Tampon Y position
+TAMPON_PAYE_ROTA = Tampon rotation (counter clockwise)
+TAMPON_PAYE_SCALE = Tampon scale
+TAMPON_PAYE_ALPHA = Tampon alpha (transparency)
+
+#
+# About page
+#
+About = About
+TamponpayeAbout = About Tamponpaye
+TamponpayeAboutPage = Tamponpaye about page

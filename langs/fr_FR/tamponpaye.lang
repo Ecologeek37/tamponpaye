@@ -1,0 +1,50 @@
+# Copyright (C) 2023 Vincent Coulon
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleTamponpayeName'
+ModuleTamponpayeName = Tamponpaye
+# Module description 'ModuleTamponpayeDesc'
+ModuleTamponpayeDesc = Tamponpaye affiche un tampon sur les factures payées pour le signifier d'un coup d'oeil.
+
+#
+# Admin page
+#
+TamponpayeSetup = Tamponpaye configuration
+Settings = Settings
+TamponpayeSetupPage = Tamponpaye page de configuration
+TAMPON_PAYE_TYPE = Type de tampon
+TAMPON_PAYE_TYPE_DISABLED = Désactivé
+TAMPON_PAYE_TYPE_IMAGE = Tampon image
+TAMPON_PAYE_TYPE_TEXT = Tampon texte
+TAMPON_PAYE_TYPE_HELP = Comment voulez vous afficher le tampon:<br>Désactivé : pas de tampon<br>Image : afficher l'image<br>Texte : affiche le texte (PDF plus légers)
+TAMPON_PAYE_IMAGE = Chemin vers l'image
+TAMPON_PAYE_TEXT = Texte du tampon
+TAMPON_PAYE_TEXT_COLOR = Couleur du texte et du tour
+TAMPON_PAYE_POS_X = Tampon X position
+TAMPON_PAYE_POS_Y = Tampon Y position
+TAMPON_PAYE_ROTA = Tampon rotation (sens anti horraire)
+TAMPON_PAYE_SCALE = Taille du tampon
+TAMPON_PAYE_ALPHA = Opacité du tampon
+
+#
+# About page
+#
+About = About
+TamponpayeAbout = A propos de Tamponpaye
+TamponpayeAboutPage = Page de a propos de Tamponpaye
