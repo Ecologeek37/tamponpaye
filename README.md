@@ -16,6 +16,8 @@ Translations can be completed manually by editing files into directories *langs*
 
 ## Licenses
 
+tamponpaye\img\tampon-payee.png probably under licence, found on google
+
 ### Main code
 
 GPLv3 or (at your option) any later version. See file COPYING for more information.
