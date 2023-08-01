@@ -86,8 +86,8 @@ class ActionsTamponpaye
 
 				// config
 				$useImage = $conf->global->TAMPON_PAYE_TYPE === '1';
-				$posX = $parameters['object']->marge_droite + $conf->global->TAMPON_PAYE_POS_X;
-				$posY = $parameters['object']->marge_haute + $conf->global->TAMPON_PAYE_POS_Y;
+				$posX = $conf->global->TAMPON_PAYE_POS_X;
+				$posY = $conf->global->TAMPON_PAYE_POS_Y;
 				$rota = $conf->global->TAMPON_PAYE_ROTA;
 				$scale = $conf->global->TAMPON_PAYE_SCALE;
 				$alpha = $conf->global->TAMPON_PAYE_ALPHA;
@@ -112,12 +112,16 @@ class ActionsTamponpaye
 				} else {
 					//display text
 					list($r, $g, $b) = sscanf($textColor, "#%02x%02x%02x"); //hex to rgb
+					// Store color
 					$parameters['pdf']->SetTextColor($r, $g, $b);
 					$parameters['pdf']->SetDrawColor($r, $g, $b);
 					$parameters['pdf']->Rect($posX, $posY, 36, 17, 'D');
 					$parameters['pdf']->SetFont('', 'B', 24);
 					$parameters['pdf']->SetXY($posX + 2.3, $posY + 3);
 					$parameters['pdf']->Write(0, $text, '', 0, '', true, 0, false, false, 0);
+					// Set default colors
+					$parameters['pdf']->SetTextColor(0, 0, 0);
+					$parameters['pdf']->SetDrawColor(0, 0, 0);
 				}
 				// restore full opacity
 				$parameters['pdf']->SetAlpha(1);
